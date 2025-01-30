@@ -1,9 +1,8 @@
 """
 This module contains the basic information about the intern.
 """
-from flask import Blueprint, Response
+from flask import Blueprint, jsonify, Response
 from datetime import datetime, timezone
-import json
 
 # Create a blueprint for basic information
 display_info = Blueprint('basic_info', __name__)
@@ -19,9 +18,8 @@ def get_basic_info():
     """ Return basic information in JSON format """
     basic_info = {
         "email": "baydreafrica@gmail.com",
-        "current_datetime": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "current_datetime": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "github_url": "https://github.com/baydre/hng12-internship-BE/stage0"
     }
 
-    json_output = json.dumps(basic_info, indent=4)
-    return Response(json_output, mimetype="application/json")
+    return jsonify(basic_info), 200
