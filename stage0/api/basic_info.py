@@ -8,12 +8,6 @@ from datetime import datetime, timezone
 display_info = Blueprint('basic_info', __name__)
 
 @display_info.route('/', methods=['GET'])
-def get_home():
-    """ Return a welcome message """
-    message = "Welcome to Baydre's Stage 0 Task for HNG12 Internship!"
-    return Response(message, mimetype="text/plain")
-
-@display_info.route('/basic-info', methods=['GET'])
 def get_basic_info():
     """ Return basic information in JSON format """
     basic_info = {
