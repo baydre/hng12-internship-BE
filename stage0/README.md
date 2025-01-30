@@ -57,7 +57,7 @@ Install dependencies
 Start the server
 
 ```bash
-  python run.py
+  python main.py
 ```
 
 ## Tech Stack
