@@ -18,7 +18,7 @@ def get_basic_info():
     """ Return basic information in JSON format """
     basic_info = {
         "email": "baydreafrica@gmail.com",
-        "current_datetime": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "current_datetime": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "github_url": "https://github.com/baydre/hng12-internship-BE/stage0"
     }
 
