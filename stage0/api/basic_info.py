@@ -13,7 +13,7 @@ def get_basic_info():
     basic_info = {
         "email": "baydreafrica@gmail.com",
         "current_datetime": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "github_url": "https://github.com/baydre/hng12-internship-BE/stage0"
+        "github_url": "https://github.com/baydre/hng12-internship-BE/"
     }
 
     return jsonify(basic_info), 200
