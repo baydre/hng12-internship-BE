@@ -68,7 +68,7 @@ Start the server
 
 ## Deployment
 
-This API is deployed on [Platform Name] and can be accessed at [Your API URL]
+This API is deployed on [Render](https://dashboard.render.com) and can be accessed at [Baydre-HNGInfoAPI](https://baydre-hnginfoapi.onrender.com/basic-info)
 
 ## Authors
 
