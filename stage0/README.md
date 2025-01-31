@@ -21,7 +21,7 @@ This is a simple REST API built with Python Flask that returns specific user inf
 ### Get User Information
 
 ```http
-  GET /basic-info
+  GET /
 ```
 
 #### Response Format
@@ -39,7 +39,8 @@ This is a simple REST API built with Python Flask that returns specific user inf
 Clone the project
 
 ```bash
-  git clone https://github.com/baydre/hng12-internship-BE
+  git clone https://github.com/baydre/hng12-internship-BE # https
+  git clone git@github.com:baydre/hng12-internship-BE.git # SSH
 ```
 
 Go to the project directory
@@ -68,7 +69,7 @@ Start the server
 
 ## Deployment
 
-This API is deployed on [Render](https://dashboard.render.com) and can be accessed at [Baydre-HNGInfoAPI](https://baydre-hnginfoapi.onrender.com/basic-info)
+This API is deployed on [Render](https://dashboard.render.com) and can be accessed at [Baydre-HNGInfoAPI](https://baydre-hnginfoapi.onrender.com)
 
 ## Authors
 
