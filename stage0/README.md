@@ -39,8 +39,8 @@ This is a simple REST API built with Python Flask that returns specific user inf
 Clone the project
 
 ```bash
-  git clone https://github.com/baydre/hng12-internship-BE # https
-  git clone git@github.com:baydre/hng12-internship-BE.git # SSH
+  git clone https://github.com/yourusername/new-repo-name.git # https
+  git clone git@github.com:yourusername/new-repo-name.git # SSH
 ```
 
 Go to the project directory
